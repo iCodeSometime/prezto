@@ -11,3 +11,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+source /Users/kennethcochran/machine_config/global_config.sh
+
+# Is this still needed? Might be omzsh only
+fpath=(/usr/local/share/zsh-completions $fpath)
